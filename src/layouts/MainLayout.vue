@@ -222,11 +222,11 @@
               />
             </a>
             <a
-              href="https://wa.me/+34626064818"
+              href="https://wa.me/+34624064818"
               target="_blank"
               class="contacto-link"
             >
-              <span>+34 626 064 818</span>
+              <span>+34 624 064 818</span>
             </a>
           </div>
 
