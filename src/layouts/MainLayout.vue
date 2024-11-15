@@ -211,7 +211,7 @@
         <div class="contacto-texto">
           <div class="contacto-item">
             <a
-              href="https://wa.me/+34626064818"
+              href="https://wa.me/+34624064818"
               target="_blank"
               class="contacto-link"
             >
