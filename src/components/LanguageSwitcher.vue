@@ -20,6 +20,7 @@ export default {
   methods: {
     changeLanguage(locale) {
       this.$i18n.locale = locale;
+      this.$emit("language-changed", locale);
     },
   },
 };

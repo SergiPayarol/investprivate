@@ -143,11 +143,7 @@
       <q-page-container class="expanded-container">
         <div class="text-container">
           <div class="logo-container" style="text-align: center">
-            <img
-              src="~assets/logo_investprivate.svg"
-              alt="Logo"
-              class="content-logo"
-            />
+            <img :src="currentLogo" alt="Logo" class="content-logo" />
           </div>
           <h4
             class="detectives-privados"
@@ -265,7 +261,7 @@
 <script>
 import PopupDialog from "src/components/PopupDialog.vue";
 import LanguageSwitcher from "src/components/LanguageSwitcher.vue";
-import { ref, onMounted, onBeforeUnmount, nextTick } from "vue";
+import { ref, onMounted, onBeforeUnmount, nextTick, computed } from "vue";
 import { useI18n } from "vue-i18n";
 
 export default {
@@ -312,6 +308,12 @@ export default {
       }
     };
 
+    const currentLogo = computed(() => {
+      return useI18n().locale.value === "ca-CA"
+        ? require("../assets/logo_investprivate_cat.svg")
+        : require("../assets/logo_investprivate.svg");
+    });
+
     onMounted(() => {
       window.addEventListener("scroll", handleScroll);
       handleScroll(); // Check initial position
@@ -327,6 +329,7 @@ export default {
       scrollTo,
       handleMenuClick,
       isScrolledToNosotros,
+      currentLogo,
     };
   },
 };
