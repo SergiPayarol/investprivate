@@ -28,7 +28,7 @@
                 margin-right: 20px;
               "
             >
-              <a href="tel:+34626064818" target="_blank" class="phone-link">
+              <a href="tel:+34624064818" target="_blank" class="phone-link">
                 <q-icon
                   name="call"
                   class="phone-icon"
@@ -36,7 +36,7 @@
                 />
               </a>
               <a
-                href="tel:+34626064818"
+                href="tel:+34624064818"
                 :class="{
                   'phone-number': true,
                   'q-ml-sm': true,
@@ -46,13 +46,13 @@
                 }"
                 v-show="$q.screen.gt.sm"
               >
-                626 06 48 18
+                624 06 48 18
               </a>
               <LanguageSwitcher v-show="$q.screen.gt.sm" />
             </div>
 
             <div v-show="$q.screen.lt.sm" class="telf_menu">
-              <a href="tel:+34626064818" target="_blank" class="phone-link">
+              <a href="tel:+34624064818" target="_blank" class="phone-link">
                 <q-icon name="call" class="phone-icon-responsive q-mr-md" />
               </a>
               <q-btn
