@@ -18,7 +18,7 @@ export default {
     nosotros_p1:
       "Ubicats a Barcelona, Investprivate treballem amb total dedicació a cada cas. Oferim serveis per tot el territori nacional amb experiència i rigor a les diferents àrees on el Detectiu Privat pot actuar.",
     nosotros_p2:
-      "El nostre objectiu és aportar solucions i acompanyar durant tot el procés d’investigació. No dubtis a contactar, estarem encantats d'escoltar-te i assessorar-te.",
+      "El nostre objectiu és aportar solucions i acompanyar durant tot el procés d’investigació. No dubti en contactar, estarem encantats d'escoltar-lo i assessorar-lo.",
     servicios_p:
       "Són múltiples àmbits on el Detectiu Privat actua, cada matèria, cada cas, requereix d'un previ i rigorós estudi, és per aquest motiu, que es trobi en la situació que es trobi, posi's en contacte amb nosaltres. Els serveis que oferim són els següents.",
     servicios_li1: "Investigació d'àmbit personal i familiar",

@@ -18,7 +18,7 @@ export default {
     nosotros_p1:
       "Ubicados en Barcelona, Investprivate trabajamos con total dedicación en cada caso. Ofrecemos servicios por todo el territorio nacional con experiencia y rigor en las diferentes áreas donde el Detective Privado puede actuar.",
     nosotros_p2:
-      "Nuestro objetivo es aportar soluciones y acompañar durante todo el proceso de investigación. No dudes en contactar, estaremos encantados de escucharte y asesorarte.",
+      "Nuestro objetivo es aportar soluciones y acompañar durante todo el proceso de investigación. No dude en contactar, estaremos encantados de escucharle y asesorarle.",
     servicios_p:
       "Son múltiples ámbitos donde el Detective Privado actúa, cada materia, cada caso, requiere de un previo y riguroso estudio, es por este motivo, que se encuentre en la situación que se encuentre, póngase en contacto con nosotros. Los servicios que ofrecemos son los siguientes.",
     servicios_li1: "Investigación de ámbito personal y familiar",
