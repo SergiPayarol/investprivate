@@ -51,6 +51,6 @@ export default {
     entendido: "Entés",
   },
   footer: {
-    footer: "© 2024 Investprivate - Tots els drets reservats",
+    footer: "© 2024 Investprivate - Tots els drets reservats - RNSP: 11.698",
   },
 };

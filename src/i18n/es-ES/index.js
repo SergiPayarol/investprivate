@@ -52,6 +52,7 @@ export default {
     entendido: "Entendido",
   },
   footer: {
-    footer: "© 2024 Investprivate - Todos los derechos reservados",
+    footer:
+      "© 2024 Investprivate - Todos los derechos reservados - RNSP: 11.698",
   },
 };
