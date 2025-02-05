@@ -50,7 +50,9 @@ module.exports = configure(function (ctx) {
       // transpile: false,
 
       publicPath:
-        process.env.NODE_ENV === "production" ? "/" : "/investprivate/",
+        process.env.NODE_ENV === "production"
+          ? "/investprivate/"
+          : "/investprivate/",
 
       // Add dependencies for transpiling with Babel (Array of string/regex)
       // (from node_modules, which are by default not transpiled).
