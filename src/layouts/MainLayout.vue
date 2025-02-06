@@ -228,7 +228,7 @@
 
           <div class="contacto-item">
             <a
-              href="mailto:info@investprivate.com"
+              href="mailto:info@investprivatedetectives.com"
               target="_blank"
               class="contacto-link"
             >
@@ -239,11 +239,11 @@
               />
             </a>
             <a
-              href="mailto:info@investprivate.com"
+              href="mailto:info@investprivatedetectives.com"
               target="_blank"
               class="contacto-link"
             >
-              <span>info@investprivate.com</span>
+              <span>info@investprivatedetectives.com</span>
             </a>
           </div>
         </div>
