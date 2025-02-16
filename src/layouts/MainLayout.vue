@@ -37,6 +37,7 @@
                   src="~assets/whats_logo_white.svg"
                   alt="WhatsApp"
                   class="whatsapp-image-header"
+                  v-show="$q.screen.gt.sm"
                 />
               </a>
               <a href="tel:+34624064818" target="_blank" class="phone-link">
@@ -63,6 +64,17 @@
             </div>
 
             <div v-show="$q.screen.lt.sm" class="telf_menu">
+              <a
+                href="https://wa.me/+34624064818"
+                target="_blank"
+                class="contacto-link-header"
+              >
+                <img
+                  src="~assets/whats_logo_white.svg"
+                  alt="WhatsApp"
+                  class="whatsapp-image-header"
+                />
+              </a>
               <a href="tel:+34624064818" target="_blank" class="phone-link">
                 <q-icon name="call" class="phone-icon-responsive q-mr-md" />
               </a>
@@ -263,21 +275,22 @@
     </q-page-container>
     <q-footer elevated class="bg-grey-8 text-white q-pa-md">
       <div class="row items-center">
-        <div>{{ $t("footer.footer") }}</div>
-
-        <q-btn
-          flat
-          :label="$t('footer.avis_legal_boto')"
-          color="white"
-          @click="alert = true"
-          class="q-ml-sm"
-        />
+        <div>
+          {{ $t("footer.footer") }}
+          <q-btn
+            flat
+            :label="$t('footer.avis_legal_boto')"
+            color="white"
+            @click="alert = true"
+            class="q-ml-sm"
+          />
+        </div>
       </div>
     </q-footer>
     <q-dialog v-model="alert">
       <q-card>
-        <q-card-section class="q-pt-none" style="margin: 50px">
-          <div style="margin-bottom: 50px">
+        <q-card-section class="q-pt-none" style="margin: 25px">
+          <div style="margin-bottom: 25px">
             <strong style="font-size: 24px">{{
               $t("footer.avis_legal")
             }}</strong>
@@ -468,7 +481,10 @@ li {
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
+  flex-wrap: nowrap;
+  max-width: 100%;
 }
+
 .menu-items {
   display: flex;
   align-items: center;
@@ -510,7 +526,7 @@ li {
   width: 25px;
   height: auto;
   color: white;
-  margin-right: 0%;
+  margin-right: 2%;
   padding-top: 8px;
 }
 .contacto-link-header {
@@ -538,8 +554,8 @@ li {
     margin-top: auto;
   }
   .right-content {
-    display: flex;
     flex-direction: column;
+    display: flex;
     align-items: flex-end;
   }
   .telf_menu {
@@ -560,6 +576,9 @@ li {
     text-align: left;
   }
   .phone-link {
+    color: white;
+  }
+  .whatsapp-image-header {
     color: white;
   }
 }
