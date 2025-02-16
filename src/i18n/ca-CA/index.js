@@ -52,5 +52,21 @@ export default {
   },
   footer: {
     footer: "© 2024 Investprivate - Tots els drets reservats - RNSP: 11.698",
+    avis_legal_boto: "Avís legal",
+    avis_legal: "AVÍS LEGAL",
+    ley: "LLEI DELS SERVEIS DE LA SOCIETAT DE LA INFORMACIÓ (LSSI)",
+    ley_text:
+      "INVESTPRIVATEDETECTIVES, com a titular del present lloc web, posa a disposició dels usuaris aquest document amb l'objectiu de complir amb les obligacions establertes a la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i de Comerç Electrònic (LSSICE), publicada al BOE Nº 166. Així mateix, s'informa tots els usuaris sobre les condicions d'ús d'aquesta pàgina web. L'accés i navegació per aquest lloc web implica l'acceptació plena i sense reserves de les disposicions incloses en aquest avís legal, així com de qualsevol altra normativa aplicable. INVESTPRIVATEDETECTIVES es reserva el dret de modificar, actualitzar o eliminar qualsevol contingut del lloc web sense necessitat d'avís previ, considerant-se suficient la seva publicació en el mateix portal.",
+    derechos: "DRETS DE PROPIETAT INTEL·LECTUAL I INDUSTRIAL",
+    derechos_text:
+      "Tots els elements que conformen aquest lloc web, incloent-hi el seu disseny, programació, edició, compilació, textos, gràfics i logotips, són propietat d'INVESTPRIVATEDETECTIVES. Aquests continguts estan protegits per la legislació vigent en matèria de propietat intel·lectual i industrial. Qualsevol reproducció, distribució, comercialització o transformació total o parcial dels continguts d'aquest lloc web sense l'autorització prèvia i expressa d'INVESTPRIVATEDETECTIVES està estrictament prohibida i pot donar lloc a accions legals. INVESTPRIVATEDETECTIVES autoritza tercers a enllaçar directament a continguts específics del lloc web, així com a la pàgina principal www.investprivatedetectives.com.",
+    cookies: "Cookies",
+    cookies_text: "Aquest lloc web no fa ús de cookies.",
+    exencion: "EXEMPCIÓ DE RESPONSABILITAT",
+    exencion_text:
+      "INVESTPRIVATEDETECTIVES no es fa responsable de la informació publicada en aquest lloc web si ha estat alterada o introduïda per tercers aliens a l'entitat.",
+    ley_ap: "LLEI APLICABLE I JURISDICCIÓ",
+    ley_ap_text:
+      "Per a la resolució de qualsevol controvèrsia relacionada amb aquest lloc web o amb les activitats desenvolupades en ell, serà d'aplicació la legislació espanyola. Ambdues parts se sotmeten expressament a la jurisdicció dels Jutjats i Tribunals més propers a Barcelona per a la resolució de qualsevol conflicte derivat de l'ús d'aquesta pàgina web.",
   },
 };

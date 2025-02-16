@@ -54,5 +54,21 @@ export default {
   footer: {
     footer:
       "© 2024 Investprivate - Todos los derechos reservados - RNSP: 11.698",
+    avis_legal_boto: "Aviso legal",
+    avis_legal: "AVISO LEGAL",
+    ley: "LEY DE LOS SERVICIOS DE LA SOCIEDAD DE LA INFORMACIÓN (LSSI)",
+    ley_text:
+      "INVESTPRIVATEDETECTIVES, como titular del presente sitio web, pone a disposición de los usuarios este documento con el objetivo de cumplir con las obligaciones establecidas en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSICE), publicada en el BOE Nº 166. Asimismo, se informa a todos los usuarios sobre las condiciones de uso de esta página web. El acceso y navegación por este sitio web implica la aceptación plena y sin reservas de las disposiciones incluidas en este aviso legal, así como de cualquier otra normativa aplicable. INVESTPRIVATEDETECTIVES se reserva el derecho de modificar, actualizar o eliminar cualquier contenido del sitio web sin necesidad de previo aviso, considerándose suficiente su publicación en el propio portal.",
+    derechos: "DERECHOS DE PROPIEDAD INTELECTUAL E INDUSTRIAL",
+    derechos_text:
+      "Todos los elementos que conforman este sitio web, incluyendo su diseño, programación, edición, compilación, textos, gráficos y logotipos, son propiedad de INVESTPRIVATEDETECTIVES. Dichos contenidos están protegidos por la legislación vigente en materia de propiedad intelectual e industrial. Cualquier reproducción, distribución, comercialización o transformación total o parcial de los contenidos de este sitio web sin la autorización previa y expresa de INVESTPRIVATEDETECTIVES está estrictamente prohibida y podrá dar lugar a acciones legales. INVESTPRIVATEDETECTIVES autoriza a terceros a enlazar directamente a contenidos específicos del sitio web, así como a la página principal www.investprivatedetectives.com.",
+    cookies: "Cookies",
+    cookies_text: "Este sitio web no hace uso de cookies.",
+    exencion: "EXENCIÓN DE RESPONSABILIDAD",
+    exencion_text:
+      "INVESTPRIVATEDETECTIVES no se hace responsable de la información publicada en este sitio web si ha sido alterada o introducida por terceros ajenos a la entidad.",
+    ley_ap: "LEY APLICABLE Y JURISDICCIÓN",
+    ley_ap_text:
+      "Para la resolución de cualquier controversia relacionada con este sitio web o con las actividades desarrolladas en él, será de aplicación la legislación española. Ambas partes se someten expresamente a la jurisdicción de los Juzgados y Tribunales más cercanos a Barcelona para la resolución de cualquier conflicto derivado del uso de esta página web.",
   },
 };

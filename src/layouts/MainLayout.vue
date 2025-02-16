@@ -28,6 +28,17 @@
                 margin-right: 20px;
               "
             >
+              <a
+                href="https://wa.me/+34624064818"
+                target="_blank"
+                class="contacto-link-header"
+              >
+                <img
+                  src="~assets/whats_logo_white.svg"
+                  alt="WhatsApp"
+                  class="whatsapp-image-header"
+                />
+              </a>
               <a href="tel:+34624064818" target="_blank" class="phone-link">
                 <q-icon
                   name="call"
@@ -250,11 +261,90 @@
       </div>
       <PopupDialog />
     </q-page-container>
-    <q-footer elevated class="bg-grey-8 text-white">
-      <div class="footer-content">
-        {{ $t("footer.footer") }}
+    <q-footer elevated class="bg-grey-8 text-white q-pa-md">
+      <div class="row items-center">
+        <div>{{ $t("footer.footer") }}</div>
+
+        <q-btn
+          flat
+          :label="$t('footer.avis_legal_boto')"
+          color="white"
+          @click="alert = true"
+          class="q-ml-sm"
+        />
       </div>
     </q-footer>
+    <q-dialog v-model="alert">
+      <q-card>
+        <q-card-section class="q-pt-none" style="margin: 50px">
+          <div style="margin-bottom: 50px">
+            <strong style="font-size: 24px">{{
+              $t("footer.avis_legal")
+            }}</strong>
+          </div>
+
+          <div>
+            <div style="margin-bottom: 15px">
+              <strong style="font-size: 18px; margin-bottom: 10px">{{
+                $t("footer.ley")
+              }}</strong>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <p style="margin-bottom: 15px">{{ $t("footer.ley_text") }}</p>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <strong style="font-size: 18px; margin-bottom: 10px">{{
+                $t("footer.derechos")
+              }}</strong>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <p style="margin-bottom: 15px">
+                {{ $t("footer.derechos_text") }}
+              </p>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <strong style="font-size: 18px; margin-bottom: 10px">{{
+                $t("footer.cookies")
+              }}</strong>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <p style="margin-bottom: 15px">{{ $t("footer.cookies_text") }}</p>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <strong style="font-size: 18px; margin-bottom: 10px">{{
+                $t("footer.exencion")
+              }}</strong>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <p style="margin-bottom: 15px">
+                {{ $t("footer.exencion_text") }}
+              </p>
+            </div>
+
+            <div>
+              <strong style="font-size: 18px; margin-bottom: 10px">{{
+                $t("footer.ley_ap")
+              }}</strong>
+            </div>
+
+            <div style="margin-bottom: 15px">
+              <p>{{ $t("footer.ley_ap_text") }}</p>
+            </div>
+          </div>
+        </q-card-section>
+
+        <q-card-actions align="right">
+          <q-btn flat label="OK" color="primary" v-close-popup />
+        </q-card-actions>
+      </q-card>
+    </q-dialog>
   </q-layout>
 </template>
 
@@ -323,6 +413,8 @@ export default {
       window.removeEventListener("scroll", handleScroll);
     });
 
+    const alert = ref(false);
+
     return {
       drawer,
       t,
@@ -330,6 +422,7 @@ export default {
       handleMenuClick,
       isScrolledToNosotros,
       currentLogo,
+      alert,
     };
   },
 };
@@ -412,6 +505,17 @@ li {
   font-size: x-large;
   padding-top: 0px;
   margin-right: -10px;
+}
+.whatsapp-image-header {
+  width: 25px;
+  height: auto;
+  color: white;
+  margin-right: 0%;
+  padding-top: 8px;
+}
+.contacto-link-header {
+  color: white;
+  text-decoration: none;
 }
 @media (max-width: 768px) {
   .header-logo {
